@@ -27,7 +27,9 @@ Data cleaning is the process of detecting and removing errors and inconsistencie
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -qqq ftfy
+import subprocess
+subprocess.check_call([sys.executable, "-m", "pip", "install", "ftfy"])
+pip install -qqq ftfy
 
 ## Import required libraries
 

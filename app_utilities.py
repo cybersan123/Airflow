@@ -8,6 +8,9 @@ import clean_utilities as CU
 import numpy as np
 import pandas as pd
 
+import nltk
+nltk.download('stopwords')
+
 ## Neglect the warnings!
 import warnings
 warnings.filterwarnings("ignore")
